@@ -136,17 +136,17 @@ body {
     }
 
     .columna1, .columna2 {
-        width: 300px;
-        padding: 20px;
+        width: 90%;
+        padding: 10px;
         margin: 0;
-
+       
     }
     .columna2{
         margin-left: 40px;
     }
 
     .texto textarea, .mensaje textarea {
-        width: 350px;
+        width: 100%;
         height: 450px;
         resize: none;
         margin: 0;
@@ -194,8 +194,9 @@ body {
    
 }
 /* Estilos específicos para tablet*/
-@media screen and (max-width: 769px) {
+/*@media screen and (max-width: 769px) {
     .main {
+       
         flex-direction: column;
         align-items: center;
         height: auto;
@@ -205,6 +206,7 @@ body {
         width: 750px;
         padding: 20px;
         margin: 0;
+        display: flex;
 
     }
 
@@ -260,7 +262,7 @@ body {
     }
   
 }
-
+*/
 
 
 
